@@ -38,4 +38,7 @@ describe("Fizz Buzz tests ", function() {
     expect(myApp.fizzBuzz(101.11)).toBe(101.11);
   });
 
+  it("should not return number for 255", function() {
+    expect(myApp.fizzBuzz(255)).not.toBe(255);
+  });
 });
