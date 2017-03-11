@@ -34,4 +34,8 @@ describe("Fizz Buzz tests ", function() {
     expect(myApp.fizzBuzz(101)).toBe(101);
   });
 
+  it("should return indivisible float number since appropriately as well", function() {
+    expect(myApp.fizzBuzz(101.11)).toBe(101.11);
+  });
+
 });
